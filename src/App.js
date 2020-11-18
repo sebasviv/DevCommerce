@@ -1,11 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/Navbar';
+import {FontAwsomeIcon} from '@fortawesome/react-fontawesome';
+import {} from '@fortawesome/free-solid-svg-icons';
+
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>HOLAAAA</h1>
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' exact />
+      </Switch>
+    </Router>
+      
+
+    </>
   );
 }
 
