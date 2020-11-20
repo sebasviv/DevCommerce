@@ -3,9 +3,12 @@ import './App.css';
 import Navbar from './components/Navbar';
 import {FontAwsomeIcon} from '@fortawesome/react-fontawesome';
 import {} from '@fortawesome/free-solid-svg-icons';
-import Integrante from './components/Integrante';
+
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+//Componentes temp
+import Integrante from './components/Integrante';
+import M_y_V from './components/MisionYVision'
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
       </Router>
       
     <Integrante />
+    <M_y_V/>
     </>
     
   );
