@@ -16,7 +16,7 @@ function Integrante(){
                         <p>Integrantes DevCommerce</p>
                     </div>
 
-                    <div className="row">
+                    <div className="row align-items-end">
                     <div className="col-lg-4 col-md-6">
                         <div className="speaker">
                         <img src={integrante1} alt="Speaker 1" className="img-fluid" />
