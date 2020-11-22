@@ -1,0 +1,81 @@
+.linearoja {
+    content: '';
+    /*position: absolute;*/
+    margin: auto;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #f82249;
+    bottom: 0;
+    transition: all 1s;
+    position: relative;
+    z-index: 2;
+  }
+.linearoja:hover{
+    width: 160px;
+}
+
+#subscribe {
+    padding: 60px;
+    background: #15012b;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #subscribe:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+    background: url(../images/subscribe-bg.jpg) center center no-repeat;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+  
+  #subscribe .section-header h2,
+  #subscribe p {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+  }
+  
+  #subscribe input {
+    background: #fff;
+    color: #060c22;
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 9px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+  
+  #subscribe button {
+    border: 0;
+    padding: 9px 25px;
+    cursor: pointer;
+    background: #f82249;
+    color: #fff;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+  
+  #subscribe button:hover {
+    background: #e0072f;
+  }
