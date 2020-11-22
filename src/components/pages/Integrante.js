@@ -10,7 +10,7 @@ import M_y_V from '../MisionYVision';
 function Integrante(){
     return (
         <div>
-            <section id="speakers" className="wow fadeInUp">
+            <section id="speakers" className="wow fadeInUp bg-white">
                 <div className="container">
                     <div className="section-header">
                         <h2>Nosotros</h2>
@@ -23,12 +23,8 @@ function Integrante(){
                         <img src={integrante1} alt="Speaker 1" className="img-fluid" />
                         <div className="details">
                             <h3><a href="speaker-details.html">Sebastian Viveros</a></h3>
-                            <p>Director General</p>
                             <div className="social">
-                            <a href="">kk<i className="fa fa-twitter"></i></a>
-                            <a href="">jj<i className="fa fa-facebook"></i></a>
-                            <a href="">uu<i className="fa fa-google-plus"></i></a>
-                            <a href="">yy<i className="fa fa-linkedin"></i></a>
+                            <p>Director General</p>
                             </div>
                         </div>
                         </div>
@@ -38,12 +34,9 @@ function Integrante(){
                         <img src={integrante2} alt="Speaker 2" className="img-fluid"/>
                         <div className="details">
                             <h3><a href="speaker-details.html">Andrés Adarve</a></h3>
-                            <p>Director de Desarrollo</p>
+                            
                             <div className="social">
-                            <a href=""><i className="fa fa-twitter"></i></a>
-                            <a href=""><i className="fa fa-facebook"></i></a>
-                            <a href=""><i className="fa fa-google-plus"></i></a>
-                            <a href=""><i className="fa fa-linkedin"></i></a>
+                            <p>Director de Desarrollo</p>
                             </div>
                         </div>
                         </div>
@@ -53,12 +46,9 @@ function Integrante(){
                         <img src={integrante3} alt="Speaker 3" className="img-fluid"/>
                         <div className="details">
                             <h3><a href="speaker-details.html">Juan Castañeda</a></h3>
-                            <p>Director creativo</p>
+                            
                             <div className="social">
-                            <a href=""><i className="fa fa-twitter"></i></a>
-                            <a href=""><i className="fa fa-facebook"></i></a>
-                            <a href=""><i className="fa fa-google-plus"></i></a>
-                            <a href=""><i className="fa fa-linkedin"></i></a>
+                            <p>Director creativo</p>
                             </div>
                         </div>
                         </div>
