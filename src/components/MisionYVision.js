@@ -3,18 +3,18 @@ import './MyV.css'
 
 function M_y_V(){
     return(
-        <section id="hotels" class="section-with-bg wow fadeInUp">
+        <section id="hotels" className="section-with-bg wow fadeInUp">
 
-        <div class="container-fluid text-center">
-            <div class="section-header">
+        <div className="container-fluid text-center">
+            <div className="section-header text-light">
             <h2>Los Objetivos DevCommerce</h2>
-            <p>Tus clientes al alcance de tus manos. </p>
+            <p className="text-warning">Tus clientes al alcance de tus manos. </p>
             </div>
 
-            <div class="row justify-content-center align-items-center h-100">
+            <div className="row justify-content-center align-items-center h-100">
 
-            <div class="col-lg-4 col-md-6 bg-white box d-flex m-2 cardsize">
-                <div class="hotel box-inner">
+            <div className="col-lg-4 col-md-6 bg-white box d-flex m-2 cardsize">
+                <div className="hotel box-inner">
                 
                 <h3>Misión</h3>
                 

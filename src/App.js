@@ -8,7 +8,9 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 //Componentes temp
 import Integrante from './components/Integrante';
-import M_y_V from './components/MisionYVision'
+import M_y_V from './components/MisionYVision';
+import Objetive from './components/Objetivos';
+import Product from './components/Producto';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       
     <Integrante />
     <M_y_V/>
+    <Objetive/>
+    <Product/>
     </>
     
   );
