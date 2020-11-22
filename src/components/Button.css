@@ -1,5 +1,5 @@
 :root {
-    --primary: #fff;
+    --primary: rgb(255, 255, 255);
   }
   
   .btn {
@@ -14,6 +14,7 @@
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
+    
   }
   
   .btn--outline {
@@ -40,4 +41,12 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+
+  .btn-inverso {
+
+    
+    background: rgb(219, 219, 219);
+   
+    
   }

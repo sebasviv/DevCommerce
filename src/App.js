@@ -7,8 +7,9 @@ import {} from '@fortawesome/free-solid-svg-icons';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 //Componentes temp
-import Integrante from './components/Integrante';
-import M_y_V from './components/MisionYVision'
+import Integrante from './components/pages/Integrante';
+import Quehacemos from './components/pages/quehacemos';
+
 
 function App() {
   return (
@@ -16,12 +17,12 @@ function App() {
    <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/home' exact component={Home} />
+          <Route path='/quienessomos' exact component={Integrante} />
+          <Route path='/quehacemos' exact component={Quehacemos} />
         </Switch>
       </Router>
       
-    <Integrante />
-    <M_y_V/>
     </>
     
   );

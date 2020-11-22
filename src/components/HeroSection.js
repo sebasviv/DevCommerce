@@ -4,33 +4,35 @@ import './HeroSection.css';
 import '../App.css';
 import { Button } from './Button';
 import video from '../videos/videodev.mp4';
+import { Link } from 'react-router-dom';
 
 
 function HeroSection() {
-    return (
-      <div className='hero-container'>
-        <video autoPlay loop muted src={video} type="video/mp4" />
-        <h1>ADVENTURE AWAITS</h1>
-        <p>What are you waiting for?</p>
-        <div className='hero-btns'>
+  return (
+    <div className='hero-container'>
+      <video autoPlay loop muted src={video} type="video/mp4" />
+      <h1>DevCommerce</h1>
+      <p>Tus clientes al alcance de tus manos.</p>
+      <div className='hero-btns'>
+        <Link to='/quienessomos'>
           <Button
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
           >
-            GET STARTED
+            ¿Quiénes Somos?
           </Button>
-          <Button
-            className='btns'
-            buttonStyle='btn--primary'
-            buttonSize='btn--large'
-            onClick={console.log('hey')}
-          >
-            WATCH TRAILER <i className='far fa-play-circle' />
+        </Link>
+        <Button
+          className='btns'
+          buttonStyle='btn-inverso'
+          buttonSize='btn--large'
+        >
+          ¿Qué hacemos?
           </Button>
-        </div>
       </div>
-    );
-  }
-  
-  export default HeroSection;
+    </div>
+  );
+}
+
+export default HeroSection;

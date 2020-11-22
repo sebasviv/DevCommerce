@@ -1,0 +1,34 @@
+.objetives{
+    
+   
+    text-align: left;
+}
+
+.title {
+    margin-top: 5%;
+    padding-bottom: 2rem;
+}
+
+.container-objetives{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleslides {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.particles-js{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
