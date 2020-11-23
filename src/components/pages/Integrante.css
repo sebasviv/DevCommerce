@@ -91,3 +91,28 @@
     margin-bottom: 10px;
   }
   
+  .org{
+    display: inline-block;
+    text-align: center;
+
+    padding-bottom: 5%;
+  }
+
+  .title{
+    padding-bottom: 3%;
+    padding-top: 1%;
+    
+  }
+
+  .bg {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
