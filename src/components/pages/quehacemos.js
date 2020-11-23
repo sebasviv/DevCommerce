@@ -2,6 +2,10 @@ import React from 'react'
 import "../pages/quehacemos.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactGoogleSlides from "react-google-slides";
+import Objetivos from '../Objetivos';
+import Producto from '../Producto';
+import Mercado from '../Mercado';
+import ParticlesScreen from '../ParticlesScreen';
 
 
 
@@ -12,8 +16,9 @@ function quehacemos() {
 
 
         <div>
+
             <div>
-                <div >
+                {/* <div >
                     <div className="text-center title ">
                         <h1> Nuestros Objetivos</h1>
                     </div>
@@ -25,22 +30,18 @@ function quehacemos() {
                         <p>2. Aumentar las ventas en las empresas con las que se colabore.</p>
                         <p>3. Realizar los requerimientos necesarios para DevCommerce durante el segundo semestre de 2020. </p>
                     </div>
-                </div>
-                <div className="text-center title">
-                    <h2>Nuestro Servicio</h2>
-                </div>
-                <div className="text-center">
+                </div> */}
+                <ParticlesScreen
+                    style={{ position: "absolute" }}
+                    width="100%"
+                    height="100%"
+                ></ParticlesScreen>
 
-                    <p>
-                        tiendas de e-commerce personalizado para las empresas, <br></br> compañías u organizaciones que busquen expandir su público objetivo en el ambiente electrónico, <br></br> intrascendente del producto o servicio que se comercialice.
-                </p>
-                </div>
 
-                <div className="text-center title">
-                    <h2>Tenemos todo planeado para ti...</h2>
-                </div>
-
+                <Objetivos />
+                <Producto />
                 <div className="googleslides">
+                    <h2 className="text-center">Tenemos todo planeado para ti...</h2>
                     <ReactGoogleSlides
                         width={740}
                         height={580}
@@ -50,7 +51,9 @@ function quehacemos() {
                         loop
                     />
                 </div>
+                <Mercado />
             </div>
+
         </div>
     )
 }

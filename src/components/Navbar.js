@@ -54,8 +54,14 @@ function Navbar() {
                                 Que hacemos
                             </Link>
                         </li>
+
+                        <li className='nav-item'>
+                            <Link to='/trabaja' className='nav-links' onClick={closeMobileMenu}>
+                            <button className="btn btn-light">Trabaja con nosotros</button>
+                            </Link>
+                        </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Contacto</Button>}
+                    
                 </div>
             </nav>
         </>

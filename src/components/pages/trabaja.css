@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: rgb(rgb(33, 52, 224),rgb(23, 79, 182)n, blue);
+}
+
+.bgtrabaja {
+  
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(168, 168, 243) 35%, rgba(0,212,255,1) 100%);
+  }
+
+  h1{
+      padding: 2%;
+  }
+
+  .google{
+      padding: 3%;
+  }
