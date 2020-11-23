@@ -1,15 +1,23 @@
 import React from 'react';
 import '../pages/financiero.css';
 import video from '../../videos/Texture1.mp4';
+import ParticlesScreen from '../ParticlesScreen';
 
 function Financiero() {
     return (
         <div id="EstadosF">
+
             <div className="fondoAnimado">
                 <h2 className="text-header text-center text-light">Estados financieros</h2>
                 <video autoPlay loop muted src={video} type="video/mp4" />
             </div>
             <div className="bgfinancieros">
+                <ParticlesScreen
+                    style={{ position: "absolute" }}
+                    width="100%"
+                    height="400%"
+                >
+                </ParticlesScreen>
                 <h2 className="text-center pt-5 text-uppercase font-weight-bold">Activo</h2>
                 <h4 className="tabla-name display-4 white"><b>Activo circulante</b></h4>
                 <div className="container tabla bg-dark text-white p-0">
@@ -176,6 +184,7 @@ function Financiero() {
                     <div className="row d-flex justify-content-between m-0 p-1 px-4">
                         <h5 className="my-auto">Capital social</h5>
                         <p className="my-auto">$20 000 000</p>
+
                     </div>
 
                     <div className="row d-flex justify-content-between m-0 p-1 px-4 bg-secondary">
