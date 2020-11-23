@@ -5,7 +5,7 @@ import './Integrante.css';
 import integrante1 from '../../images/integrante1.jpg';
 import integrante2 from '../../images/integrante2.jpg';
 import integrante3 from '../../images/integrante3.jpg';
-import Organigrama from '../../images/organigrama.jpeg';
+import Organigrama from '../../images/organigrama.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ParticlesScreen from '../ParticlesScreen';
