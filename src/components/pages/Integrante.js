@@ -6,6 +6,7 @@ import integrante1 from '../../images/integrante1.jpg';
 import integrante2 from '../../images/integrante2.jpg';
 import integrante3 from '../../images/integrante3.jpg';
 import Organigrama from '../../images/organigrama.png';
+import M_y_V from '../MisionYVision';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ParticlesScreen from '../ParticlesScreen';
@@ -14,10 +15,10 @@ function Integrante() {
     return (
         <div className="bg ">
             <ParticlesScreen
-                    style={{ position: "absolute" }}
-                    width="100%"
-                    height="100%"
-                ></ParticlesScreen>
+                style={{ position: "absolute" }}
+                width="100%"
+                height="200%"
+            ></ParticlesScreen>
             <section id="speakers" className="wow fadeInUp ">
                 <div className="container">
                     <div className="section-header">
@@ -63,6 +64,9 @@ function Integrante() {
 
 
                     </div>
+                </div>
+                <div>
+                    <M_y_V/>
                 </div>
 
             </section>
