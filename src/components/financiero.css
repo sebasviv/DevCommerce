@@ -1,0 +1,31 @@
+.tabla{
+    width: 40%;
+}
+.tabla-name{
+    padding: 5%;
+    margin-left: 15%;
+    
+}
+.text-blue{
+    color: rgb(25, 57, 66);
+}
+.text-header{
+    padding: 5%;
+    font-size: 4rem;
+
+}
+.fondoAnimado video{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+.fondoAnimado{
+    position: relative;
+    overflow: hidden;
+
+}
+.fondoAnimado h2{
+    z-index: 2;
+
+}

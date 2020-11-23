@@ -9,9 +9,18 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 //Componentes temp
 import Integrante from './components/pages/Integrante';
 import Quehacemos from './components/pages/quehacemos';
+<<<<<<< HEAD
 import Trabaja from './components/pages/trabaja';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
+=======
+import M_y_V from './components/MisionYVision';
+import Objetive from './components/Objetivos';
+import Product from './components/Producto';
+import Tipo from './components/TipoEmpresa';
+import Mercado from './components/Mercado';
+import Financiero from './components/Financiero';
+>>>>>>> 864be76d2b3cfbef9144bd612de122d37dc98a62
 
 function App() {
   return (
@@ -42,7 +51,12 @@ function App() {
     <Objetive/>
     <Product/>
     <Mercado/>
+<<<<<<< HEAD
     <Tipo/> */}
+=======
+    <Tipo/>
+    <Financiero/>
+>>>>>>> 864be76d2b3cfbef9144bd612de122d37dc98a62
     </>
 
   );
