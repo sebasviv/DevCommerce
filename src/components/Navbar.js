@@ -56,8 +56,15 @@ function Navbar() {
                         </li>
 
                         <li className='nav-item'>
+                            <Link to='/financiera' className='nav-links' onClick={closeMobileMenu}>
+                                Financiera
+                            </Link>
+                        </li>
+
+                         <li className='nav-item'>
                             <Link to='/trabaja' className='nav-links' onClick={closeMobileMenu}>
-                            <button className="btn btn-light">Trabaja con nosotros</button>
+                             <button className="btn btn-light">Trabaja con nosotros</button>
+                           
                             </Link>
                         </li>
                     </ul>

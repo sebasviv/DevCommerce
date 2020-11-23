@@ -29,3 +29,11 @@
     z-index: 2;
 
 }
+
+.bgfinancieros{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(3, 93, 113) 0%, rgb(5, 54, 75) 35%, rgb(15, 29, 37) 100%);
+}
+.white{
+    color: white;
+}

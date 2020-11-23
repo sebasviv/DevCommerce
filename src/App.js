@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import Integrante from './components/pages/Integrante';
 import Quehacemos from './components/pages/quehacemos';
 import Trabaja from './components/pages/trabaja';
+import Financiera from './components/pages/Financiero';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/quienessomos' exact component={Integrante} />
           <Route path='/quehacemos' exact component={Quehacemos} />
           <Route path='/trabaja' exact component={Trabaja} />
+          <Route path='/financiera' exact component={Financiera} />
         </Switch>
       </Router>
     </>
