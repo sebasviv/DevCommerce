@@ -30,7 +30,7 @@ function Navbar() {
     window.addEventListener('resize', showButton);
     return (
         <>
-            <nav className="navbar">
+            <nav className="navbar p-0">
                 <div className="navbar-container">
                     <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
                         DevCommerce <img className='devlogo fa-typo3' src={logo} alt="Logo"/>
