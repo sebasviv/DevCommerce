@@ -14,6 +14,7 @@ import Objetive from './components/Objetivos';
 import Product from './components/Producto';
 import Tipo from './components/TipoEmpresa';
 import Mercado from './components/Mercado';
+import Financiero from './components/Financiero';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
     <Product/>
     <Mercado/>
     <Tipo/>
+    <Financiero/>
     </>
     
   );
